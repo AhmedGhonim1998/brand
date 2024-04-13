@@ -1,0 +1,67 @@
+[
+
+    {
+        "id": 1, 
+        "image": "/productsImgs/redIphone.png",
+        "title": "iphone 11 pro" ,
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "price":"$998.00",
+        "PriceDeleted":"1128.00"
+    },
+    {
+        "id": 2, 
+        "image": "./productsImgs/XomiPhone.png",
+        "title": "Xomi hot note" ,
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "price":"$998.00"
+    },
+    {
+        "id": 3, 
+        "image": "./productsImgs/XomiProPhone.png",
+        "title": "Xomi hot note pro" ,
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "price":"$998.00"
+    },
+    {
+        "id": 3, 
+        "image": "./productsImgs/DELLaptop.png",
+        "title": "DEL Laptop" ,
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "price":"$998.00"
+    },
+    {
+        "id": 5, 
+        "image": "./productsImgs/whiteWatch.png",
+        "title": "rolex watch" ,
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "price":"$998.00"
+    },
+    {
+        "id": 6, 
+        "image": "./productsImgs/whiteHeadPhone.png",
+        "title": "white Head Phone" ,
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "price":"$998.00"
+    },
+    {
+        "id": 7, 
+        "image": "./productsImgs/cam.png",
+        "title": "white Head Phone" ,
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "price":"$998.00"
+    },
+    {
+        "id": 8, 
+        "image": "./productsImgs/iphone12.png",
+        "title": "white Head Phone" ,
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "price":"$998.00"
+    },
+    {
+        "id": 9, 
+        "image": "./productsImgs/iphone12Pro.png",
+        "title": "white Head Phone" ,
+        "desc":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+        "price":"$998.00"
+    }
+]

@@ -1,0 +1,213 @@
+.ElectronicItems{
+    list-style: none;
+    li{
+        transition: .2s;
+        color: grey;
+        font-size: 1.3rem;
+        &:hover{
+            background-color: #E5F1FF;
+            border-radius: 15px;
+            height: 40px; 
+            line-height: 40px;
+            padding-left: 3%;
+            
+}
+}
+}
+/******************************start electronic items style***************************************************/
+.electronicItems{
+    background-color: #f7fafc;
+}
+
+.itemsCol{
+    background: url(../viewsSass/backgroundcomp.png);
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+}
+.secBtn{
+    background-color: white;
+    color: black;
+    border: none;
+}
+h2{
+    font-weight: bold;
+}
+.itemsConatiner{
+    border: 1px solid rgb(190, 189, 189);
+    background-color: white;
+}
+
+.electronicContent{
+    background-color:#E3F0FF;
+    border-radius: 10px;
+}
+.btnProfile{
+    width: 150px;
+    align-items: center;
+}
+.imageProfile{
+    width: 20%;
+}
+.homeBrand{
+    background-color: #f7fafc;
+}
+.supplier{
+    background-color: #F38332;
+    border-radius: 10px;
+}
+.quotes{
+    background-color: #55BDC3;
+}
+/******************************end electronic items style***************************************************/
+
+body{
+    height: 5000px;
+    background-color: #f7fafc;
+}
+
+/******************************start offers style***************************************************/
+.cardContainer{
+    background-color: white;
+}
+
+.offersDealsContiner{
+    border: 1px solid rgb(190, 189, 189);
+}
+.offerCol{
+    border-left: 1px solid rgb(190, 189, 189);
+    border-right: 1px solid rgb(190, 189, 189);
+}
+.card{
+    border: none;
+    border-radius: 0;
+}
+.time{
+    background-color: #606060
+    ;
+    width: 50px;
+    border-radius: 7px;
+    color: white;
+}
+.offerImage{
+    width: 60%;
+    object-fit: contain !important;
+}
+.imageContainer{
+    height: 150px;
+}
+.offerCard{
+    padding: 0;
+}
+.offerCol{
+    padding: 0;
+}
+.offerPercentage{
+    background-color: #FFE3E3;
+    border-radius: 15px;
+    width: 60px;
+    color: red;
+}
+.dealsCol{
+    padding-left: 0;
+    background-color: white;
+}
+/******************************end offers style***************************************************/
+
+/******************************start indoor/Gadgets style****************************************/
+
+.indoorBackground{
+    background: url(/public/HomeOutdoorImgs/background.png) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 40vh;
+    width: 250px;
+}
+.sourceNowContainer{
+    background-color: none !important;
+}
+.cardIndoor{
+    background-color: initial !important;
+    padding-left: 0;
+}
+.furnitureImg{
+    width: 100%;
+    object-fit: contain;
+}
+.imageFur{
+    width: 90px;
+}
+.offerCol{
+    padding-bottom: 0;
+    background-color: white;
+}
+.getgetsBackground{
+    background-image: url(/public/electronicImgs/background.png);
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 40vh;
+    width: 250px;
+
+}
+/******************************end indoor/Gadgets style****************************************/
+/******************************start suppliers style****************************************/
+.suppliers{
+    background-image: url(/public/images/backgroundSuppliers.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+}
+.sendQuoteSuppliers{
+    background-color: white;
+    border-radius: 5px;
+}
+.question{
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 7px;
+}
+.quantity{
+    width: 200px !important;
+}
+/******************************end suppliers style****************************************/
+
+
+/******************************start recomendation style****************************************/
+.recImg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.recomendImg{
+    height: 200px;
+}
+.recCard{
+    border: 1px solid rgb(204, 203, 203);
+    height: 90%;
+}
+.recomendPar{
+    font-size: .8rem;
+}
+/******************************end recomendation style****************************************/
+.icon{
+    background-color: #D1E7FF;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 20px;
+    margin-top: -16%;
+    margin-bottom: 7%;
+}
+
+.extraCard{
+    border: 1px solid rgb(204, 203, 203);
+    height: 100%;
+}
+.flag{
+    width: 25% !important;
+    height: 0% !important;
+}
+.contentFlag{
+    font-size: .8rem;
+    color: rgb(151, 150, 150);
+}

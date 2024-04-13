@@ -1,0 +1,74 @@
+.singleProductImg{
+    border: 1px solid rgb(201, 201, 201);
+    height: 80% !important;
+    padding: 3%;
+}
+.singleImg{
+    width: 0;
+    height: 300px !important;
+}
+.rightIcon{
+    width: 35%;
+    color: #00B517;
+}
+.stock{
+    color: #00B517;
+}
+.singlePrices{
+    background-color: #FFF0DF;
+}
+.priceCard{
+    border-right: 1px solid rgb(189, 186, 186);
+    .priceText{
+        color: red;
+    }
+}
+.reviews{
+    p{
+        font-size: .8rem;
+        width: 100%;
+    }
+}
+.singleStar{
+    width: 5% !important;
+}
+.Querycontent{
+    background-color: #fff !important;
+    border: 1px solid rgb(209, 206, 206);
+    width: 97%;
+.supplierText{
+    width: 33%;
+}
+}
+.security{
+    width: 6% !important;
+}
+.description{
+    border: 1px solid rgb(201, 201, 201);
+}
+/*************************************start related products style***************************/
+.relatedProductsContent{
+    width: 150px;
+    height: 150px;
+}
+.relatedProductsImg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.superDiscountSection{
+    background-image: url(/src/assets/BackGroundShop/shopNow.png);
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 15vh;
+}
+.shopNowBtn{
+    background-color:#FF9017;
+    border: none;
+    &:hover{
+        background-color: grey;
+    }
+}

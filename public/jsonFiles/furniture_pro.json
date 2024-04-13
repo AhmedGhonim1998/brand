@@ -1,0 +1,27 @@
+[
+
+    {
+        "id": 6, 
+        "image": "./HomeOutdoorImgs/mixer.png",
+        "title": "kitchen mixer" ,
+        "subTitle":"From USD 100"
+    },
+    {
+        "id": 7, 
+        "image": "./HomeOutdoorImgs/blinder.png",
+        "title": "hand blender" ,
+        "subTitle":"From USD 39" 
+    },
+    {
+        "id": 8, 
+        "image": "./HomeOutdoorImgs/appliance.png",
+        "title": "home appliance" ,
+        "subTitle":"From USD 19"  
+    },
+    {
+        "id": 9, 
+        "image": "./HomeOutdoorImgs/plant.png",
+        "title": "cactuses plant" ,
+        "subTitle":"From USD 10"  
+    }
+]

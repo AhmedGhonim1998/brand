@@ -1,0 +1,27 @@
+[
+
+    {
+        "id": 6, 
+        "image": "./electronicImgs/head2.png",
+        "title": "gaming set" ,
+        "subTitle":"From USD 100"
+    },
+    {
+        "id": 7, 
+        "image": "./electronicImgs/laptopImg.png",
+        "title": "laptops & pc" ,
+        "subTitle":"From USD 39" 
+    },
+    {
+        "id": 8, 
+        "image": "./electronicImgs/sPhone.png",
+        "title": "smart phones" ,
+        "subTitle":"From USD 19"  
+    },
+    {
+        "id": 9, 
+        "image": "./electronicImgs/Iphone.png",
+        "title": "iPhone" ,
+        "subTitle":"From USD 10"  
+    }
+]

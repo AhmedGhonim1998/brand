@@ -1,0 +1,63 @@
+[
+
+    {
+        "id": 1, 
+        "image": "./recommendedItemsImgs/blueTshirt.png",
+        "price": "$10.30" ,
+        "des":"T-shirts with multiple colors, for men"
+    },
+    {
+        "id": 2, 
+        "image": "./recommendedItemsImgs/brownJacket.png",
+        "price": "$10.30" ,
+        "des":"Jeans shorts for men blue color"
+    },
+    {
+        "id": 3, 
+        "image": "./recommendedItemsImgs/formalJacket.png",
+        "price": "$12.50" ,
+        "des":"Brown winter coat medium size"  
+    },
+    {
+        "id": 4, 
+        "image": "./recommendedItemsImgs/wallet.png",
+        "price": "$34.00" ,
+        "des":"Jeans bag for travel for men"  
+    },
+    {
+        "id": 5, 
+        "image": "./recommendedItemsImgs/bag.png",
+        "price": "$34.00" ,
+        "des":"Jeans bag for travel for men"  
+    },
+    {
+        "id": 6, 
+        "image": "./recommendedItemsImgs/short.png",
+        "price": "$9.99" ,
+        "des":"Jeans bag for travel for men"  
+    },
+    {
+        "id": 7, 
+        "image": "./electronicImgs/electronicHeadPhone.png",
+        "price": "$8.99" ,
+        "des":"Headset for gaming with mic"  
+    },
+    {
+        "id": 8, 
+        "image": "./recommendedItemsImgs/bag.png",
+        "price": "$10.30" ,
+        "des":"Headset for gaming with mic"  
+    },
+    {
+        "id": 9, 
+        "image": "./HomeOutdoorImgs/smartWatches.png",
+        "price": "$10.30" ,
+        "des":"Blue wallet for men leather metarfial"  
+    },
+    {
+        "id": 10, 
+        "image": "./electronicImgs/catele.png",
+        "price": "$80.95" ,
+        "des":"Jeans bag for travel for men"  
+    }
+]

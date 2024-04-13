@@ -8,6 +8,7 @@ import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import enTranslation from "./locale/en.json"
 import ar from "./locale/ar.json"
+import "./sass/globalSass/sass.scss"
 
 i18n
   .use(initReactI18next)

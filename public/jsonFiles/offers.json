@@ -1,0 +1,33 @@
+[
+
+    {
+        "id": 1, 
+        "image": "./offersImages/watch.png",
+        "title": "Smart watches" ,
+        "offer": "-25%" 
+    },
+    {
+        "id": 2, 
+        "image": "./offersImages/laptop.png",
+        "title": "Laptops" ,
+        "offer": "-15%" 
+    },
+    {
+        "id": 3, 
+        "image": "./offersImages/camera.png",
+        "title": "GoPro Cameras" ,
+        "offer": "-40%" 
+    },
+    {
+        "id": 4, 
+        "image": "./offersImages/headphone.png",
+        "title": "Headphones" ,
+        "offer": "-25%" 
+    },
+    {
+        "id": 5, 
+        "image": "./offersImages/phone.png",
+        "title": "Mopile Phone" ,
+        "offer": "-25%" 
+    }
+]

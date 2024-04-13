@@ -1,0 +1,30 @@
+.items{
+    background-color: #fff;
+    border: 1px solid rgb(194, 191, 191);
+    padding-left: 2%;
+    padding-right: 2%;
+    span{
+        font-weight: bold;
+    }
+}
+.productImgContent{
+    height: 200px !important;
+    .productImage{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.productsCard{
+    border: 1px solid rgb(214, 211, 211);
+}
+.productBtn{
+    color: #0D6EFD;
+}
+.checked , .unChecked{
+    width: 10%;
+    height: 10%;
+}
+.checked{
+    color: #FF9017;
+}

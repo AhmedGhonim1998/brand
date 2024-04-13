@@ -1,0 +1,60 @@
+@import '../viewsSass/variables';
+
+@media (max-width:990px) {
+    :root{
+        font-size: 15px;
+    }
+    .menuRow{
+        // @include flexLibrary;
+        .nav-link{
+            // text-align: center;
+        }
+        .menuBar{
+            // justify-content: start;
+        }
+    }
+    .footerContent{
+        @include flexLibrary;
+    }
+    .appfooter{
+        @include flexLibrary;
+        align-items: start;
+        .appfooterImg{
+            width: 40% !important;
+        }
+    }
+    .menusIcons{
+        justify-content: flex-start !important;
+    }
+    .rowContainer{
+        @include flexLibrary;
+    }
+    .offersRow{
+        border-top: 1px solid rgb(190, 189, 189)
+    }
+    .rowContainer{
+        @include flexLibrary;
+    }
+    .singleCardRow{
+        @include flexLibrary;
+        .productImgContent{
+            margin-right: 3rem !important;
+        }
+    }
+    .SuperDicsountFlex{
+        @include flexLibrary;
+    }
+}
+@media (max-width:770px){
+    .offerCard{
+        border-bottom: 1px solid rgb(190, 189, 189) !important;
+    }
+}
+@media (max-width:576px){
+    :root{
+        font-size: 12px;
+    }
+    .menuBar{
+        justify-content: flex-start !important;
+    }
+}

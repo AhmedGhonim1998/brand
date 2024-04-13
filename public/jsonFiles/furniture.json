@@ -1,0 +1,27 @@
+[
+
+    {
+        "id": 1, 
+        "image": "./HomeOutdoorImgs/softChairs.png",
+        "title": "soft chairs" ,
+        "subTitle":"From USD 19"
+    },
+    {
+        "id": 2, 
+        "image": "./HomeOutdoorImgs/sofaChairs.png",
+        "title": "sofa chairs" ,
+        "subTitle":"From USD 19" 
+    },
+    {
+        "id": 3, 
+        "image": "./HomeOutdoorImgs/kitchesDighes.png",
+        "title": "kitches dighes" ,
+        "subTitle":"From USD 19"  
+    },
+    {
+        "id": 4, 
+        "image": "./HomeOutdoorImgs/smartWatches.png",
+        "title": "smart watches" ,
+        "subTitle":"From USD 19"  
+    }
+]

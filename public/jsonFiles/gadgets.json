@@ -1,0 +1,27 @@
+[
+
+    {
+        "id": 6, 
+        "image": "./electronicImgs/electronicWatch.png",
+        "title": "smart watches" ,
+        "subTitle":"From USD 100"
+    },
+    {
+        "id": 7, 
+        "image": "./electronicImgs/electronicCamera.png",
+        "title": "cameras" ,
+        "subTitle":"From USD 39" 
+    },
+    {
+        "id": 8, 
+        "image": "./electronicImgs/electronicHeadPhone.png",
+        "title": "head phones" ,
+        "subTitle":"From USD 19"  
+    },
+    {
+        "id": 9, 
+        "image": "./electronicImgs/catele.png",
+        "title": "electronic kattle" ,
+        "subTitle":"From USD 10"  
+    }
+]
