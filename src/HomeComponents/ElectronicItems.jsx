@@ -30,7 +30,7 @@ const items = [
 
 
 export default function ElectronicItems() {
-    const content = items.map((item , index) => <li key={index} ><NavLink className="nav-link mb-2">{item}</NavLink></li>)
+    const content = items.map((item , index) => <li key={index} ><NavLink className="nav-link mb-3">{item}</NavLink></li>)
 
 
 
@@ -42,7 +42,6 @@ export default function ElectronicItems() {
                         <div className="itemsContent">
                             <Row className='contentRow p-2'>
                                 <Col lg={3} md={12} sm={12} className='my-auto'>
-                                    
                                         <ul className='ElectronicItems'>
                                             {content}
                                         </ul>

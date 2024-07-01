@@ -10,13 +10,26 @@ import { IconContext } from 'react-icons';
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import { SideNavData } from '../HomeComponents/SideNavData';
+import { useRef, useEffect } from 'react';
 export default function SecNavBar() {
-
     const [sidebar, setSidebar] = useState(false);
-    function sidebarHandler() {
-        setSidebar(!sidebar);
-    }
+    let menuRef = useRef();
+    useEffect(() => {
+        let sidebarHandler = (e) => {
+            if (!menuRef.current.contains(e.target)) {
+                setSidebar(false);
+                console.log(menuRef.current);
+            }
+        };
 
+        document.addEventListener("mousedown", sidebarHandler);
+
+
+        return () => {
+            document.removeEventListener("mousedown", sidebarHandler);
+        }
+
+    });
     var { t, i18n } = useTranslation()
 
     console.log(i18n)
@@ -32,39 +45,63 @@ export default function SecNavBar() {
                     <Row className='SecNavRow'>
                         <Col className='SecNavCol' lg={6} md={12} sm={12}>
                             <Row className='menuRow'>
-                                <Col lg={2} md={4} sm={4}>
-                                    <Row>
-                                        <Col sm={4} className='p-0'>
-                                        <GiHamburgerMenu className='mnu' onClick={sidebarHandler} />
-                                        </Col>
-                                        <Col sm={8} className='p-0 my-auto'>
-                                        <p className='text-capitalize my-auto ms-1'>category</p>
-                                        </Col>
+                                <Col lg={2} md={2} sm={2} xs={2}>
+                                    <Row className='mt-1'>
+                                            <Col xs={4}className='p-0 my-auto text-center'>
+                                                <div className="navContiner" ref={menuRef}>
+                                                    <GiHamburgerMenu className='mnu' onClick={() => { setSidebar(!sidebar) }} />
+                                                    <nav className={sidebar ? 'sideMenu active' : 'sideMenu'}>
+                                                        <ul className='sideMenuItems'>
+                                                            <li className='sideMenuToggle list-unstyled mb-4 mt-3' onClick={() => { setSidebar(!sidebar) }}>
+                                                                <Link to='#' className='sideBars'>
+                                                                    <AiIcons.AiOutlineClose />
+                                                                </Link>
+                                                            </li>
+                                                            {SideNavData.map((item, index) =>
+                                                            (
+                                                                <li key={index} className={item.cName}>
+                                                                    <Link>
+                                                                        <span className='title'>{item.title}</span>
+                                                                    </Link>
+                                                                    <hr className='me-3' />
+                                                                </li>
+                                                            )
+
+                                                            )}
+                                                        </ul>
+                                                    </nav>
+                                                </div>
+                                            </Col>
+                                            <Col xs={8} className='p-0 my-auto text-center'>
+                                                <p className='text-capitalize my-auto ms-1 text-center' onClick={() => { setSidebar(!sidebar) }} style={{cursor:'pointer'}}>Menu</p>
+                                            </Col>
+
+                                        
                                     </Row>
                                 </Col>
-
-                                <Col lg={2} md={12} sm={12} className='coloff'>
-                                    <NavLink className='nav-link text-capitalize mt-1'>hot offers</NavLink>
+                                <Col lg={2} md={2} sm={2}xs={2} className='mx-auto text-center'>
+                                    <NavLink className='nav-link text-capitalize mt-1 mx-auto' to="/">home</NavLink>
                                 </Col>
 
-                                <Col lg={2} md={12} sm={12}>
-                                    <NavLink className='nav-link text-capitalize mt-1'>gift boxes</NavLink>
+                                <Col lg={2} md={2} sm={2} xs={2} className='mx-auto text-center'>
+                                    <NavLink className='nav-link text-capitalize mt-1 mx-auto' to='/products '>products</NavLink>
+                                </Col>
+                                <Col lg={2} md={2} sm={2} xs={2} className='text-center'>
+                                    <NavLink className='nav-link text-capitalize mt-1 mx-auto' to="/chart">chart</NavLink>
                                 </Col>
 
-                                <Col lg={2} md={12} sm={12}>
-                                    <NavLink className='nav-link text-capitalize mt-1' to='/products'>products</NavLink>
+
+
+                                <Col lg={2} md={2} sm={2} xs={2} className='coloff text-center'>
+                                    <NavLink className='nav-link text-capitalize mt-1 mx-auto' to='/add_new_product'>Add</NavLink>
                                 </Col>
 
-                                <Col lg={2} md={12} sm={12}>
-                                    <NavLink className='nav-link text-capitalize mt-1' to="/">home</NavLink>
-                                </Col>
-
-                                <Col lg={2} md={12} sm={12}>
+                                <Col lg={2} md={2} sm={2} xs={2}>
                                     <DropdownButton
                                         align="end"
                                         title="Help"
                                         id="dropdown-menu-align-end"
-                                        className='SecDropMenu nav-link'
+                                        className='SecDropMenu nav-link mx-auto text-center'
                                     >
 
                                         <Dropdown.Item eventKey="1">Action</Dropdown.Item>
@@ -115,26 +152,6 @@ export default function SecNavBar() {
                     </Row>
                 </div>
 
-                <nav className={sidebar ? 'sideMenu active' : 'sideMenu'}>
-                    <ul className='sideMenuItems'>
-                        <li className='sideMenuToggle list-unstyled mb-4 mt-3' onClick={sidebarHandler}>
-                            <Link to='#' className='sideBars'>
-                                <AiIcons.AiOutlineClose/>
-                            </Link>
-                        </li>
-                        {SideNavData.map((item, index) => 
-                            (
-                                <li key={index} className={item.cName}>
-                                    <Link>
-                                        <span className='title'>{item.title}</span>
-                                    </Link>
-                                    <hr className='me-3'/>
-                                </li>
-                            )
-                            
-                        )}
-                    </ul>
-                </nav>
             </section>
             <hr className='mt-0' />
         </>

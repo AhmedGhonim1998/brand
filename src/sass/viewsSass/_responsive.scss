@@ -4,14 +4,11 @@
     :root{
         font-size: 15px;
     }
-    .menuRow{
-        // @include flexLibrary;
-        .nav-link{
-            // text-align: center;
-        }
-        .menuBar{
-            // justify-content: start;
-        }
+    .language{
+        width: 10%;
+    }
+    .icons{
+        justify-content: center
     }
     .footerContent{
         @include flexLibrary;
@@ -24,7 +21,7 @@
         }
     }
     .menusIcons{
-        justify-content: flex-start !important;
+        justify-content: center !important;
     }
     .rowContainer{
         @include flexLibrary;

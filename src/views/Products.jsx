@@ -5,12 +5,16 @@ import ProductCard from "../components/ProductCard";
 import ProjectNavBar from "../layout/ProjectNavBar";
 import { RiStarSFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
-export default function Products() {
+import { FaShoppingCart } from "react-icons/fa";
+import { MdModeEditOutline } from "react-icons/md";
+
+
+export default function Products({ handleClick }) {
     const [products, setProducts] = useState([])
     let { t } = useTranslation();
 
     let getProducts = () => {
-        fetch("https://fakestoreapi.com/products")
+        fetch("http://localhost:3000/products")
             .then(res => res.json())
             .then(res => setProducts(res))
     }
@@ -80,9 +84,22 @@ export default function Products() {
                                             <Card.Text>
                                                 {products.desc}
                                             </Card.Text>
-                                            <Link to={`/products/single_product/${products.id}`} onClick={scrollUp}>
-                                                <Button variant="secondary" className="secBtn productBtn">view details</Button>
-                                            </Link>
+                                            <div className="cardBtnContainer d-flex justify-content-between">
+                                                <Link to={`/products/single_product/${products.id}`} onClick={scrollUp}>
+                                                    <Button variant="secondary" className="secBtn productBtn">view details</Button>
+                                                </Link>
+                                                
+                                                    
+                                                        <Link to={`/products/edit/${products.id}`} onClick={scrollUp}>
+                                                            <MdModeEditOutline className="secBtn productBtn editBtn" />
+                                                        </Link>
+                                                    
+                                                    
+                                                        <FaShoppingCart className='chart' onClick={() => handleClick(products)} />
+                                                    
+                                                
+
+                                            </div>
                                         </Card.Body>
                                     </Card>
                                 </Col>

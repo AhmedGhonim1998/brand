@@ -35,7 +35,7 @@ export default function SiteNav() {
                                 aria-label="Recipient's username"
                                 aria-describedby="basic-addon2"
                             />
-                            <Form.Select aria-label="Default select example selectForm">
+                            <Form.Select className='w-25'>
                                 <option>All Category</option>
                                 <option value="1">One</option>
                                 <option value="2">Two</option>
@@ -46,7 +46,7 @@ export default function SiteNav() {
 
                     </Nav>
                     <div className='icons d-flex jusify-content-around'>
-                        <FaLanguage onClick={handleLanguage} className='mt-2' />
+                        <FaLanguage onClick={handleLanguage} className='mt-2 language' />
                         <div className="person me-3 ms-2">
                             <IoPerson />
                             <p>profile</p>
@@ -64,7 +64,9 @@ export default function SiteNav() {
                         </div>
 
                         <div className="person me-3">
-                            <FaShoppingCart />
+                            <NavLink to="/chart">
+                                <FaShoppingCart />
+                            </NavLink>
                             <p>chart</p>
                         </div>
                     </div>

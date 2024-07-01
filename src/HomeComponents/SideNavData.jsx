@@ -15,10 +15,10 @@ export const SideNavData = [
       <Accordion.Item eventKey="0" className='allMenu'>
         <Accordion.Header className='listHeader'>category</Accordion.Header>
         <Accordion.Body>
-          <ul className='ElectronicItems list-unstyled listData'>
+          <ul className='ElectronicItems list-unstyled listData '>
 
             <li className='mb-2'>
-              <Link className='nav-link text-capitalize listData'>
+              <Link className='nav-link text-capitalize listData text-decoration-none'>
                 moblie accessory
               </Link>
             </li>
@@ -51,11 +51,11 @@ export const SideNavData = [
       <Accordion.Item eventKey="0" className='allMenu'>
         <Accordion.Header className='listHeader text-capitalize'>Brands</Accordion.Header>
         <Accordion.Body className='d-flex justify-content-start flex-column'>
-          <CheckBox labelName='samsung' checkType='checkbox'/>
-          <CheckBox labelName='apple' checkType='checkbox'/>
-          <CheckBox labelName='huawei' checkType='checkbox'/>
-          <CheckBox labelName='pocco' checkType='checkbox'/>
-          <CheckBox labelName='lenovo'checkType='checkbox'/>
+          <CheckBox labelName='samsung' checkType='checkbox' />
+          <CheckBox labelName='apple' checkType='checkbox' />
+          <CheckBox labelName='huawei' checkType='checkbox' />
+          <CheckBox labelName='pocco' checkType='checkbox' />
+          <CheckBox labelName='lenovo' checkType='checkbox' />
           <Link className='text-capitalize'>see all</Link>
         </Accordion.Body>
       </Accordion.Item>
@@ -67,11 +67,11 @@ export const SideNavData = [
       <Accordion.Item eventKey="0" className='allMenu'>
         <Accordion.Header className='listHeader'>features</Accordion.Header>
         <Accordion.Body className='d-flex justify-content-start flex-column'>
-          <CheckBox labelName='metallic' checkType='checkbox'/>
-          <CheckBox labelName='plastic cover' checkType='checkbox'/>
-          <CheckBox labelName='8GB Ram' checkType='checkbox'/>
-          <CheckBox labelName='super power' checkType='checkbox'/>
-          <CheckBox labelName='large memory' checkType='checkbox'/>
+          <CheckBox labelName='metallic' checkType='checkbox' />
+          <CheckBox labelName='plastic cover' checkType='checkbox' />
+          <CheckBox labelName='8GB Ram' checkType='checkbox' />
+          <CheckBox labelName='super power' checkType='checkbox' />
+          <CheckBox labelName='large memory' checkType='checkbox' />
           <Link className='text-capitalize'>see all</Link>
         </Accordion.Body>
       </Accordion.Item>
@@ -83,7 +83,7 @@ export const SideNavData = [
       <Accordion.Item eventKey="0" className='allMenu'>
         <Accordion.Header className='listHeader'>price range</Accordion.Header>
         <Accordion.Body>
-        <Range/>
+          <Range />
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>,
@@ -95,10 +95,10 @@ export const SideNavData = [
       <Accordion.Item eventKey="0" className='allMenu'>
         <Accordion.Header className='listHeader'>condition</Accordion.Header>
         <Accordion.Body className='d-flex justify-content-start flex-column'>
-        <CheckBox labelName='any' checkType='radio'/>
-          <CheckBox labelName='Refurbished' checkType='radio'/>
-          <CheckBox labelName='Brand new' checkType='radio'/>
-          <CheckBox labelName='Old items' checkType='radio'/>
+          <CheckBox labelName='any' checkType='radio' />
+          <CheckBox labelName='Refurbished' checkType='radio' />
+          <CheckBox labelName='Brand new' checkType='radio' />
+          <CheckBox labelName='Old items' checkType='radio' />
         </Accordion.Body>
       </Accordion.Item>
     </Accordion>,
@@ -110,11 +110,11 @@ export const SideNavData = [
       <Accordion.Item eventKey="0" className='allMenu'>
         <Accordion.Header className='listHeader'>ratings</Accordion.Header>
         <Accordion.Body className='d-flex justify-content-start flex-column'>
-          <CheckBox labelName='metallic' checkType='checkbox'/>
-          <CheckBox labelName='plastic cover' checkType='checkbox'/>
-          <CheckBox labelName='8GB Ram' checkType='checkbox'/>
-          <CheckBox labelName='super power' checkType='checkbox'/>
-          <CheckBox labelName='large memory' checkType='checkbox'/>
+          <CheckBox labelName='metallic' checkType='checkbox' />
+          <CheckBox labelName='plastic cover' checkType='checkbox' />
+          <CheckBox labelName='8GB Ram' checkType='checkbox' />
+          <CheckBox labelName='super power' checkType='checkbox' />
+          <CheckBox labelName='large memory' checkType='checkbox' />
           <Link className='text-capitalize'>see all</Link>
         </Accordion.Body>
       </Accordion.Item>
